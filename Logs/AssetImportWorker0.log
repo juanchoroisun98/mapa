@@ -1,0 +1,927 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.31f1 (a206c360e2a8) revision 10618563'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'es' Physical Memory: 14225 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/juanc/Alma
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58090
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/juanc/Alma
+C:/Users/juanc/Alma
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25132]  Target information:
+
+Player connection [25132]  * "[IP] 192.168.1.41 [Port] 0 [Flags] 2 [Guid] 564117602 [EditorId] 564117602 [Version] 1048832 [Id] WindowsEditor(7,Juancho) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25132] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25132] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.31f1 (a206c360e2a8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/juanc/Alma/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8042 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.011247 seconds.
+- Loaded All Assemblies, in  0.451 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 308 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.675 seconds
+Domain Reload Profiling: 1123ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (161ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (147ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (675ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (645ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (425ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.238 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.309 seconds
+Domain Reload Profiling: 545ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (35ms)
+		LoadAssemblies (78ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (14ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (310ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (200ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (36.2 KB). Loaded Objects now: 564.
+Memory consumption went from 59.1 MB to 59.0 MB.
+Total: 5.122700 ms (FindLiveObjects: 0.053700 ms CreateObjectMapping: 0.007300 ms MarkObjects: 4.981400 ms  DeleteObjects: 0.078400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 550941.588376 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Farm_Character_Leaf.prefab
+  artifactKey: Guid(25e88c7fbe6033344b57972de8b0f824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Farm_Character_Leaf.prefab using Guid(25e88c7fbe6033344b57972de8b0f824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5858c77f4c92a508792ade34d4825000') in 0.2852549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 125
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Farm_Character_Farmer_Noah.prefab
+  artifactKey: Guid(4fb38fc63708c0248b83689d9e19017f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Farm_Character_Farmer_Noah.prefab using Guid(4fb38fc63708c0248b83689d9e19017f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e7eece05dd11e84cdb8ec90570015ec') in 0.0245193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 122
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.978782 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures 4
+  artifactKey: Guid(df2cf77b8e0f138489a0eaf0762ec46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures 4 using Guid(df2cf77b8e0f138489a0eaf0762ec46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9df9cc9d577e4c31f685d6f286b41431') in 0.0006831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.729099 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures 1
+  artifactKey: Guid(b113c1581718ba648b6d8fe81187e181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures 1 using Guid(b113c1581718ba648b6d8fe81187e181) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1d85f562c5dd559b38c678a548c9a8e') in 0.0006005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.413406 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures
+  artifactKey: Guid(21571217da095544e8e3d08ae69c0367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures using Guid(21571217da095544e8e3d08ae69c0367) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63e7be9896657fe1a4ee7256726efdcd') in 0.0008331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.117299 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/chara_d_alpha.png
+  artifactKey: Guid(dd1fb26e00ef78646bbbf260efaac7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/chara_d_alpha.png using Guid(dd1fb26e00ef78646bbbf260efaac7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6884f37e10a9e9e121a6022c173655a4') in 0.0181646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002417 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/chara_lta_00.png
+  artifactKey: Guid(70fa64c7a34f2f242a8144cad2b5b4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/chara_lta_00.png using Guid(70fa64c7a34f2f242a8144cad2b5b4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e81b58c13db818ac1fc27f1fc720504f') in 0.0062546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_02.png
+  artifactKey: Guid(8d32605ff3e736b47805485f72d034da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_02.png using Guid(8d32605ff3e736b47805485f72d034da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4b3e474344c9100843a569af52ba736') in 0.0065109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_07.png
+  artifactKey: Guid(25ecfd63a39cc514ba7d7bdada375f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_07.png using Guid(25ecfd63a39cc514ba7d7bdada375f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09c1883291f4d682fe0c359172e0fe49') in 0.0067904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_10.png
+  artifactKey: Guid(ea2414e942a371c48a9ddbfa19056746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_10.png using Guid(ea2414e942a371c48a9ddbfa19056746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f95d0d04bc8b6aa37cf320f958e23d2') in 0.0062969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_13.png
+  artifactKey: Guid(b33d9d23ab847e541922f15bcbe856e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_13.png using Guid(b33d9d23ab847e541922f15bcbe856e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adc71ef5254fafad2596687c64c4a4c7') in 0.006705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_17.png
+  artifactKey: Guid(ca3a911d525b6e34987347b08a46cb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_17.png using Guid(ca3a911d525b6e34987347b08a46cb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae54b9eec32eb7bca75a88ef572b5b3f') in 0.0073835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_spc_99.png
+  artifactKey: Guid(c6d226eeb91f56d42b146ce69b0b8188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_spc_99.png using Guid(c6d226eeb91f56d42b146ce69b0b8188) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e51b1b81225a19fd3007078257b9075c') in 0.005445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_16.png
+  artifactKey: Guid(741106a589f720b44a55c35aab96be86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_16.png using Guid(741106a589f720b44a55c35aab96be86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a3cc1149e833d9986586a033b6363ec') in 0.0057414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_col_06.png
+  artifactKey: Guid(3b7a2db7e27a7fa49b6844d8ed650d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_col_06.png using Guid(3b7a2db7e27a7fa49b6844d8ed650d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b88ef5278222d00b4fb7d899a87769c2') in 0.0062067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_spc.png
+  artifactKey: Guid(780b99a0031bf6441bafd0a45f50932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_spc.png using Guid(780b99a0031bf6441bafd0a45f50932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c67c2c2653ae84c41cedf4f577c6448') in 0.0040293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_col_08.png
+  artifactKey: Guid(8a67aafeda92f0d4e810805e89e7daae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_col_08.png using Guid(8a67aafeda92f0d4e810805e89e7daae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9463b7e31f69992f0f2ab6793f21c0a') in 0.0061759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_col_05.png
+  artifactKey: Guid(108ffb5bee3c9574a8c28b6585ff8885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_col_05.png using Guid(108ffb5bee3c9574a8c28b6585ff8885) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebbbbc8f407454921aeaa98ce1414e12') in 0.007523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_col_11.png
+  artifactKey: Guid(68acc9f6f594bc74c99396d598fe0c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_col_11.png using Guid(68acc9f6f594bc74c99396d598fe0c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaf1885729156b6c93cb1f3fa402ff50') in 0.0062589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_col_12.png
+  artifactKey: Guid(01a70ab5fc304c54994c35f4f75f9716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_col_12.png using Guid(01a70ab5fc304c54994c35f4f75f9716) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66173ac7cc3180939a40cb01972fa479') in 0.0072435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_col_18.png
+  artifactKey: Guid(95ac3256d86706347a8dbc2135bfb2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_col_18.png using Guid(95ac3256d86706347a8dbc2135bfb2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95d388d9185518b69c8bbcfb15812cd0') in 0.0060235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_spc_11.png
+  artifactKey: Guid(5b0442e4ae187304986b9b6ded940dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_spc_11.png using Guid(5b0442e4ae187304986b9b6ded940dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '300631847329ac0886f8395ea35e931c') in 0.0058024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_spc_12.png
+  artifactKey: Guid(0a87192bd544958458e33b30ad0a2fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_spc_12.png using Guid(0a87192bd544958458e33b30ad0a2fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '738aafc4c19b9233cfa5cee87e2113d2') in 0.0053639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_spc_15.png
+  artifactKey: Guid(ae4bfce0c4845f04c85fffa49f4ebf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_spc_15.png using Guid(ae4bfce0c4845f04c85fffa49f4ebf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f954fee43dbebbb9e1e14cfb629e622') in 0.0077841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_spc_99.png
+  artifactKey: Guid(97386b547d3f8904eb49fae3ae8e2350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_spc_99.png using Guid(97386b547d3f8904eb49fae3ae8e2350) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b7c057d660dc5d2fa261119071518d1') in 0.0069431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_03.png
+  artifactKey: Guid(479c41c3563991742a315c542bb6d596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_03.png using Guid(479c41c3563991742a315c542bb6d596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e63ca263945e8fb535eb52abee672e3f') in 0.0095863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_spc_18.png
+  artifactKey: Guid(7818c31353cfe6a4897b014083e14459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_spc_18.png using Guid(7818c31353cfe6a4897b014083e14459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca89ba23decaf0020bb215312042e1a3') in 0.0050367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_06.png
+  artifactKey: Guid(2e78d06b967d17e4aabdf82d87843dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_06.png using Guid(2e78d06b967d17e4aabdf82d87843dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de0fa105f6d74d2134c9d98c396d0b74') in 0.007552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_14.png
+  artifactKey: Guid(b1595f57c6c41d143adfb906415ace42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_14.png using Guid(b1595f57c6c41d143adfb906415ace42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a95cb504cdf2f3f11b242e970428fdaf') in 0.0263202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_spc.png
+  artifactKey: Guid(5e91c5a759ed3864e855f87d065af5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_spc.png using Guid(5e91c5a759ed3864e855f87d065af5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f43a6a491fae32c1b91b4df9f1f8ba34') in 0.0318647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_12.png
+  artifactKey: Guid(ff5dfc0aa140def4dbf1a1e4bfd6864a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_12.png using Guid(ff5dfc0aa140def4dbf1a1e4bfd6864a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf190b19cefca14810f32a05331c102d') in 0.0236019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_05.png
+  artifactKey: Guid(f94459ae54e94cb48b9d720c94a71af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_05.png using Guid(f94459ae54e94cb48b9d720c94a71af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a2a440436f5abf6e411cebdcb80e094') in 0.0270658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_04.png
+  artifactKey: Guid(eee1b16632f6f4e45bd5211f5c0c3c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_04.png using Guid(eee1b16632f6f4e45bd5211f5c0c3c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bfd7541b969d5b494bcf4030e1a8802') in 0.0163417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_09.png
+  artifactKey: Guid(e8dfae590b2634b4fb7f304b27bc4f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_09.png using Guid(e8dfae590b2634b4fb7f304b27bc4f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9eb4c7e9f3ff775cbebe2240256e12a4') in 0.0160066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_03.png
+  artifactKey: Guid(181a8a7d1a79d4c49a80c21f508a3b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bag_col_03.png using Guid(181a8a7d1a79d4c49a80c21f508a3b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18653c545f4eb5dad172cf590967c898') in 0.0058157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_col_01.png
+  artifactKey: Guid(aa3cc9a9bae77594e9c6ea791e4f72e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_bottoms_col_01.png using Guid(aa3cc9a9bae77594e9c6ea791e4f72e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '833d93badef4e7fb5b2a9465919c077d') in 0.0064317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.222234 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_07.png
+  artifactKey: Guid(6f426d98d621b0f4d9c0c9b35dd555cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_07.png using Guid(6f426d98d621b0f4d9c0c9b35dd555cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e760f5ca9b69060c78468b4b36bb3d0') in 0.0053818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_10.png
+  artifactKey: Guid(a4860b2251d888c4db68b2843d154850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_10.png using Guid(a4860b2251d888c4db68b2843d154850) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '134233b04411094585696dae5816152c') in 0.0059543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_14.png
+  artifactKey: Guid(fe7457c321c5b96458354b97b9dc8844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_14.png using Guid(fe7457c321c5b96458354b97b9dc8844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38f3c2956bfb53d6324e7f9bd355a643') in 0.0064297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_spc_03.png
+  artifactKey: Guid(b3d4dab594b0cd24cb29bb81d01c2443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_spc_03.png using Guid(b3d4dab594b0cd24cb29bb81d01c2443) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bebf0e3826d199250a4c2df752b6911') in 0.0063136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_11.png
+  artifactKey: Guid(c928f447c34951140a2a37adbfa29df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_11.png using Guid(c928f447c34951140a2a37adbfa29df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b993f49818b8f396c70885111c48075') in 0.0065229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_13.png
+  artifactKey: Guid(56e8637a263d5f646bb9419dafb6fb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_13.png using Guid(56e8637a263d5f646bb9419dafb6fb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bcaf1e20bd0fa4af1bbb078a610df2b') in 0.0061971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_99.png
+  artifactKey: Guid(1409564a1bedb824ca967f01d55fa863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_col_99.png using Guid(1409564a1bedb824ca967f01d55fa863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b9532b630f7a68df9509fa4f2be7eae') in 0.004927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013339 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_spc_06.png
+  artifactKey: Guid(eb5812f32edbd0240a42ca46b203e28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_spc_06.png using Guid(eb5812f32edbd0240a42ca46b203e28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eaf2204a25054ac8577c4852455e2957') in 0.0041663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_eye_col_00_02.png
+  artifactKey: Guid(7d8ea9818ca3a4f42b0fa0f89a87e4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_eye_col_00_02.png using Guid(7d8ea9818ca3a4f42b0fa0f89a87e4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c521626b715f9d3ddb0b141c56fbecd1') in 0.0062616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_eye_col_00_01.png
+  artifactKey: Guid(5b2c9d9557941ba48991f579be3f28d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_eye_col_00_01.png using Guid(5b2c9d9557941ba48991f579be3f28d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ece0b9d2ada8e762e764d174e44f453') in 0.0059089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_eye_spc.png
+  artifactKey: Guid(4773fc51c01345241884316389a107b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_eye_spc.png using Guid(4773fc51c01345241884316389a107b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b970b3bb88280e916b4b6cc1afaa69f') in 0.0042466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_eye_emi.png
+  artifactKey: Guid(6bdbda98b2efab744973a9679e619363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_eye_emi.png using Guid(6bdbda98b2efab744973a9679e619363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bade87f45e484e1687b472444d561f4d') in 0.0067809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_hair_amb_B.png
+  artifactKey: Guid(9e81fd6954cc1244baa7aef66b0b7d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_hair_amb_B.png using Guid(9e81fd6954cc1244baa7aef66b0b7d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96de85b9ccf7aae99b6213807baec52d') in 0.0045999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_hair_col_00_01.png
+  artifactKey: Guid(4f2c3991f6c740343984d527b4b0d768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_hair_col_00_01.png using Guid(4f2c3991f6c740343984d527b4b0d768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ae8bb7555628884cbc0f7d6d96d7393') in 0.0054435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_hair_spc_00_01.png
+  artifactKey: Guid(5a53c54a0985fa348a164d21f69ab07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_hair_spc_00_01.png using Guid(5a53c54a0985fa348a164d21f69ab07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7741ff3c0ac222e69bf618dd2bf9262') in 0.0043716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_01.png
+  artifactKey: Guid(869c63ed9ce7cb14189c2cd497a5ed28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_01.png using Guid(869c63ed9ce7cb14189c2cd497a5ed28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06cab0a080ffcb0d786b5f6ec729e847') in 0.0054215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_amb_B.png
+  artifactKey: Guid(929c08e26e0137e4997b669af6ae3067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_amb_B.png using Guid(929c08e26e0137e4997b669af6ae3067) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '914c646b2bd38295a53caf4754b1b43b') in 0.0068542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_amb_G.png
+  artifactKey: Guid(32ef988e984a1a649a3c95192e7fcc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_amb_G.png using Guid(32ef988e984a1a649a3c95192e7fcc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd78bc64f822ab79dc367a856218951d') in 0.0039807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_hair_spc_99.png
+  artifactKey: Guid(92e2b6042f19cc048ad15ad4fb2e5ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_hair_spc_99.png using Guid(92e2b6042f19cc048ad15ad4fb2e5ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f2e36e4889fe9d3e50caea34bdb1132') in 0.0076201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_hair_col_99.png
+  artifactKey: Guid(e8d4d0d296299c740a67a6eace2a961d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_hair_col_99.png using Guid(e8d4d0d296299c740a67a6eace2a961d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21ea8e47491517c7d13dd22c0f80c7e6') in 0.0052261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_02.png
+  artifactKey: Guid(eb82da4b3a6e90b44bfe1e73639f941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_02.png using Guid(eb82da4b3a6e90b44bfe1e73639f941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e99041706ebe140583f8b6ba3cad0fb3') in 0.0053554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_spc_99.png
+  artifactKey: Guid(37948998308eb3042a205a141f5a4ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_cap_spc_99.png using Guid(37948998308eb3042a205a141f5a4ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e741a42d8e967a8290ea24b9fc59b990') in 0.0043513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.345636 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_05.png
+  artifactKey: Guid(2d489b4ccceab9c4088ade4b05cfa52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_05.png using Guid(2d489b4ccceab9c4088ade4b05cfa52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97d4b75150fad9bc9fbd0738c88b25e5') in 0.005223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_07.png
+  artifactKey: Guid(1fa097537fa99204e8aaaefa667a28bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_07.png using Guid(1fa097537fa99204e8aaaefa667a28bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ace187cce386cbec51a9c0edf43cb82a') in 0.0053817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_12.png
+  artifactKey: Guid(78542098e558a324a8b5f15440843ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_12.png using Guid(78542098e558a324a8b5f15440843ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55bc06058255c43a2ac95e74bb01e014') in 0.0048711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_17.png
+  artifactKey: Guid(04e83c74e35c4a44aa8fcc5b5ed6e78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_17.png using Guid(04e83c74e35c4a44aa8fcc5b5ed6e78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '158adfa403c33b8af616c9de97c01c88') in 0.0056456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_99.png
+  artifactKey: Guid(318a88a5281234141973aa8be889b78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_99.png using Guid(318a88a5281234141973aa8be889b78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2526ffdd3f2ac813fad068ba03959f41') in 0.0074391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_14.png
+  artifactKey: Guid(b5abd6edb281df54d997bd764c3befc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_14.png using Guid(b5abd6edb281df54d997bd764c3befc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b63b9c64e6044e037293f1c4d1b9d406') in 0.005463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_spc.png
+  artifactKey: Guid(58f49c6c8091b0344ba2639e401661f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_spc.png using Guid(58f49c6c8091b0344ba2639e401661f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f754ebfb0f60896544e71557869e4b21') in 0.0037908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_spc_03.png
+  artifactKey: Guid(53bf356703ace2749b95f8ad901d6d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_spc_03.png using Guid(53bf356703ace2749b95f8ad901d6d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47e314a15b21b36aa1bcbafb95682fb3') in 0.0046265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_skin_amb_G.png
+  artifactKey: Guid(ad45f21a57410ba42b900259d1454a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_skin_amb_G.png using Guid(ad45f21a57410ba42b900259d1454a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2a6c262132c04718b5ea54a37ddae9b') in 0.0072325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_skin_col_00_03.png
+  artifactKey: Guid(0645bc4ebd4d6c946a3d5be669a308ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_skin_col_00_03.png using Guid(0645bc4ebd4d6c946a3d5be669a308ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd33a35a2a5ef85cec21a1465f0d04d5') in 0.0063966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_skin_col_00_02.png
+  artifactKey: Guid(68d11b37ade7220438fbfe4f2cac17fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_skin_col_00_02.png using Guid(68d11b37ade7220438fbfe4f2cac17fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a16780449d6938e72d0b8e7a116bbf7e') in 0.0060392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_spc_99.png
+  artifactKey: Guid(e8315d8231989344f8376a4e38fc9e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_spc_99.png using Guid(e8315d8231989344f8376a4e38fc9e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62c01355353cd616890b3022b3d9c3b5') in 0.005406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_skin_spc_99.png
+  artifactKey: Guid(a11ddac5b48f6ff439287c2e35a89a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_skin_spc_99.png using Guid(a11ddac5b48f6ff439287c2e35a89a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc5c32ec4974dde01507bcf6763fc15c') in 0.0054028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_01.png
+  artifactKey: Guid(d87fb3c0645b5c74aab4b7beb2dbce46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_01.png using Guid(d87fb3c0645b5c74aab4b7beb2dbce46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbf639c2f4faa1b9b47a714c65f3e563') in 0.0056196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_amb_r.png
+  artifactKey: Guid(fa67d1dea8eadbf4a9525027888afefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_amb_r.png using Guid(fa67d1dea8eadbf4a9525027888afefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90ef64172a42a8335b5b332be14d6a26') in 0.005155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_08.png
+  artifactKey: Guid(d7fc494da6ac1844089b7d761d1a0cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_08.png using Guid(d7fc494da6ac1844089b7d761d1a0cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ae31c4f6194175f68ccf6428d4a5f09') in 0.00616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_skin_spc.png
+  artifactKey: Guid(a889c2e1276cc0344ab485616636d357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_skin_spc.png using Guid(a889c2e1276cc0344ab485616636d357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29851cfc3ec93b10e168104013a7c875') in 0.0048015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_10.png
+  artifactKey: Guid(5ac5076e6e1f488459c0e6375f49c867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_10.png using Guid(5ac5076e6e1f488459c0e6375f49c867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd815f6b7e2238c9684d0d3d6e580d4b3') in 0.0054618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_05.png
+  artifactKey: Guid(2c8ff3111f76ab841ba122a55b49c892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_05.png using Guid(2c8ff3111f76ab841ba122a55b49c892) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c2df49ba885cf67ff376c0b61412798') in 0.0056021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_13.png
+  artifactKey: Guid(15131d6a230a7b6469f008226569f2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_13.png using Guid(15131d6a230a7b6469f008226569f2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5681203ec73d94a4daa360bb692002e3') in 0.007042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_spc_02.png
+  artifactKey: Guid(9f57a3b1aae316040ab28eaa8dfc268c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_spc_02.png using Guid(9f57a3b1aae316040ab28eaa8dfc268c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77f4a6ca8f5282445b6d16505d520ebe') in 0.0065463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_17.png
+  artifactKey: Guid(b441dffe1c9e07a4a8e78d1aacbb79b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_17.png using Guid(b441dffe1c9e07a4a8e78d1aacbb79b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0177272f3c22c822cba3636e4e1d3e0c') in 0.0061453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_99.png
+  artifactKey: Guid(4a0df45d3680a634f80c0d835d97b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_99.png using Guid(4a0df45d3680a634f80c0d835d97b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dfb1e38777cf752bf57171cd20d7217') in 0.0062076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_spc_08.png
+  artifactKey: Guid(e6f1462a6fac8404982617da0bee0146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_spc_08.png using Guid(e6f1462a6fac8404982617da0bee0146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de25ef1e6c0a94c0181a3110d4303765') in 0.0048604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_spc_15.png
+  artifactKey: Guid(a897005e509e9b049b43dec366d5f790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_spc_15.png using Guid(a897005e509e9b049b43dec366d5f790) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04ec0f8e9e4fe78d4274af3bf27770bf') in 0.0053044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_spc_99.png
+  artifactKey: Guid(e4ba99a8f108574409a93818a4ab95b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_spc_99.png using Guid(e4ba99a8f108574409a93818a4ab95b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57fedca200e72468506084359c68b7e1') in 0.006193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_spc_05.png
+  artifactKey: Guid(db9e5e9f79212324e9ee4fd7ca23d916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_spc_05.png using Guid(db9e5e9f79212324e9ee4fd7ca23d916) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '673b7c3660bb9cb9574bd3a9197cf5ab') in 0.0058152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_skin_amb_r.png
+  artifactKey: Guid(2afb43a32505a6c4aa23b35dfcd1cc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_skin_amb_r.png using Guid(2afb43a32505a6c4aa23b35dfcd1cc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69661570d53fb5a6e746fa1a8f1b334c') in 0.0061028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_11.png
+  artifactKey: Guid(a23821548e89eb64a9afb463d5770e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_col_11.png using Guid(a23821548e89eb64a9afb463d5770e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0186227da04f294d357ca99c3161aae') in 0.0060188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_spc_12.png
+  artifactKey: Guid(5b1c729b1f5bb7c47b2f04073b103356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_shoes_spc_12.png using Guid(5b1c729b1f5bb7c47b2f04073b103356) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00093e71e32035f50b8c3fef76ed14be') in 0.0053377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_02.png
+  artifactKey: Guid(443f707134265d5458ff466a0213f26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_col_02.png using Guid(443f707134265d5458ff466a0213f26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f929f084fcc9ad15749680681a868701') in 0.0063222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_spc.png
+  artifactKey: Guid(8eed549350857ac4f85ceee7a26f64dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/Textures/tr0002_00_tops_spc.png using Guid(8eed549350857ac4f85ceee7a26f64dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b64c64f08f61cc7e81cb3c5ab164cd8') in 0.0059308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.059243 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/almacamisaverde@Angry.fbx
+  artifactKey: Guid(f43db6e989543854e839e5ad30451ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming [Complete Edition v1.0.0]/3D Models/Farm Characters/almacamisaverde@Angry.fbx using Guid(f43db6e989543854e839e5ad30451ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8292d5fafeec1b23f93dccd843f65f16') in 0.3231122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 169
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
